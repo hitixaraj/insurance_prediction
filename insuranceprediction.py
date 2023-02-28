@@ -230,7 +230,7 @@ insurance.loc[nonsmoker,'smoker']=0
 
 
 # In[27]:
-
+#Converting object data to interger 
 
 SER=(insurance['region']=='southeast')
 SWR=(insurance['region']=='southwest')
